@@ -20,4 +20,4 @@ def test_failure():
 # Fails if error not raised
 def test_exp_err():
     with pytest.raises(TypeError):
-        return "hello" * 4
+        return "hello"/4
